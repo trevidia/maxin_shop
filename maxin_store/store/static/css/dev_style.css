@@ -3,3 +3,19 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.input{
+    @apply h-[38px] px-2 rounded-md border border-slate-300 focus:border-sky-400 focus:ring-1 focus:ring-sky-400 outline-none
+}
+
+.textarea{
+    @apply h-[128px] py-3 resize-none px-2 rounded-md border border-slate-300 focus:border-sky-400 focus:ring-1 focus:ring-sky-400 outline-none
+}
+
+.button{
+    @apply h-[48px] bg-sky-500 w-full text-white text-lg rounded-[10px] mt-4
+}
+
+.cart{
+    height: calc(100vh - 50px - 1rem);
+}
